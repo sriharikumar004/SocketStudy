@@ -53,6 +53,19 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
+Important Functions in Python Socket Programming
+S.No Function Purpose
+1 socket() Creates a new socket object
+2 bind() Associates the socket with an IP address and port number
+3 listen() Enables the server to listen for incoming connections
+4 accept() Accepts a connection request from a client
+5 connect() Connects the client socket to the server
+6 send() Sends data through the socket
+7 recv() Receives data from the socket
+8 sendall() Sends complete data continuously until all data is transmitted
+9 close() Closes the socket connection
+10 getsockname() Returns the socket’s own address and port number
+
 
 ## Result:
 Thus the study of Socket Programming Completed Successfully
